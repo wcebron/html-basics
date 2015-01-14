@@ -1,0 +1,69 @@
+header {
+		background-image: url("images/background.jpg");
+		text-align: center;
+}
+
+body {
+	background-color: #D6D6D6;
+}
+
+.wrapper {
+	max-width: 900px;
+	margin: 0 auto;
+	position: relative;
+	padding: 1%;
+}
+
+.container_left {
+	max-width: 550px;
+	float: left;
+	background-color: white;
+	padding: 2%;
+}
+
+.container_right {
+	min-width: 250px;
+	float: right;
+	background-color: white;
+	padding: 1%;
+	font-size: 0.8em;
+	font-weight: bold;
+	line-height: 120%;
+	text-align: left;
+}
+
+.red {
+	color: red;
+}
+
+.border {
+	border-top: dotted;
+	border-bottom: solid;
+}
+
+.container_right h3{
+	padding: 0 7%;
+}
+
+ul {
+		padding: 0 7%;
+		margin: 0;
+}
+
+ul li {
+	list-style: none;
+}
+
+.banner {
+	max-width: 100%;
+}
+
+.container_right img {
+	padding: 0% 7%;
+}
+
+footer{
+	text-align: center;
+	clear: both;
+	padding: 1%;
+}
